@@ -24,4 +24,5 @@ cd ~/talos_hydro_workspace/
 catkin_make
 echo -e "\n${RED}Building packages [Complete]${NC}\n"
 
+rm -rf indigo/talos_*
 echo -e "\n${YELLOW}You're ready to start developing!${NC}\n"
