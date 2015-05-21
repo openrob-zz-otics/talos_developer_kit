@@ -17,7 +17,7 @@ echo -e "\n${RED}Initializing developer workspace [Complete]${NC}\n"
 echo -e "\n${BLACK}Downloading packages...${NC}\n"
 # Download packages
 rosinstall indigo .
-mv hydro/talos_* ~/talos_indigo_workspace/src
+mv indigo/talos_* ~/talos_indigo_workspace/src
 echo -e "\n${RED}Downloading packages [Complete]${NC}\n"
 
 echo -e "\n${BLACK}Building packages...${NC}\n"

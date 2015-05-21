@@ -1,12 +1,26 @@
-- git: {local-name: talos_control, uri: 'https://github.com/openrobotics/talos_control', version: indigo-devel}
-- git: {local-name: talos_description, uri: 'https://github.com/openrobotics/talos_description', version: indigo-devel}
-- git: {local-name: talos_simulator, uri: 'https://github.com/openrobotics/talos_simulator', version: indigo-devel}
-- git: {local-name: talos_moveit_config, uri: 'https://github.com/openrobotics/talos_moveit_config', version: indigo-devel}
-- git: {local-name: talos_documentation, uri: 'https://github.com/openrobotics/talos_documentation', version: indigo-devel}
-- git: {local-name: talos_mechanism, uri: 'https://github.com/openrobotics/talos_mechanism', version: indigo-devel}
-- git: {local-name: talos_navigation, uri: 'https://github.com/openrobotics/talos_navigation', version: indigo-devel}
-- git: {local-name: talos_teleop, uri: 'https://github.com/openrobotics/talos_teleop', version: indigo-devel}
-- git: {local-name: talos_audio, uri: 'https://github.com/openrobotics/talos_audio', version: indigo-devel}
+# IT IS UNLIKELY YOU WANT TO EDIT THIS FILE BY HAND,
+# UNLESS FOR REMOVING ENTRIES.
+# IF YOU WANT TO CHANGE THE ROS ENVIRONMENT VARIABLES
+# USE THE rosinstall TOOL INSTEAD.
+# IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
+- git: {local-name: talos_control, uri: 'https://github.com/openrobotics/talos_control',
+    version: indigo-devel}
+- git: {local-name: talos_description, uri: 'https://github.com/openrobotics/talos_description',
+    version: indigo-devel}
+- git: {local-name: talos_simulator, uri: 'https://github.com/openrobotics/talos_simulator',
+    version: indigo-devel}
+- git: {local-name: talos_moveit_config, uri: 'https://github.com/openrobotics/talos_moveit_config',
+    version: indigo-devel}
+- git: {local-name: talos_documentation, uri: 'https://github.com/openrobotics/talos_documentation',
+    version: indigo-devel}
+- git: {local-name: talos_mechanism, uri: 'https://github.com/openrobotics/talos_mechanism',
+    version: indigo-devel}
+- git: {local-name: talos_navigation, uri: 'https://github.com/openrobotics/talos_navigation',
+    version: indigo-devel}
+- git: {local-name: talos_teleop, uri: 'https://github.com/openrobotics/talos_teleop',
+    version: indigo-devel}
+- git: {local-name: talos_audio, uri: 'https://github.com/openrobotics/talos_audio',
+    version: indigo-devel}
 - git: {local-name: talos_developer_iso, uri: 'https://github.com/openrobotics/talos_developer_iso',
     version: ubuntu-trusty}
 - git: {local-name: talos_tutorial_iso, uri: 'https://github.com/openrobotics/talos_tutorial_iso',
