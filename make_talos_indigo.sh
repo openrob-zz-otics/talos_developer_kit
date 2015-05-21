@@ -10,19 +10,19 @@ NC='\033[0m'
 
 echo -e "${BLACK}Initializing developer workspace...${NC}\n"
 # Setup file structure
-mkdir -p ~/talos_hydro_workspace/src
-catkin_init_workspace ~/talos_hydro_workspace/src
+mkdir -p ~/talos_indigo_workspace/src
+catkin_init_workspace ~/talos_indigo_workspace/src
 echo -e "\n${RED}Initializing developer workspace [Complete]${NC}\n"
 
 echo -e "\n${BLACK}Downloading packages...${NC}\n"
 # Download packages
 rosinstall indigo .
-mv hydro/talos_* ~/talos_hydro_workspace/src
+mv hydro/talos_* ~/talos_indigo_workspace/src
 echo -e "\n${RED}Downloading packages [Complete]${NC}\n"
 
 echo -e "\n${BLACK}Building packages...${NC}\n"
 # Build packages
-cd ~/talos_hydro_workspace/
+cd ~/talos_indigo_workspace/
 catkin_make
 echo -e "\n${RED}Building packages [Complete]${NC}\n"
 
