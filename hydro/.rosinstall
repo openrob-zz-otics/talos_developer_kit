@@ -23,3 +23,5 @@
     version: hydro-devel}
 - git: {local-name: talos_sensors, uri: 'https://github.com/openrobotics/talos_sensors',
     version: hydro-devel}
+- git: {local-name: talos_smach, uri: 'https://github.com/openrobotics/talos_smach',
+    version: hydro-devel}

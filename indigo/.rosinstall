@@ -17,3 +17,5 @@
     version: master}
 - git: {local-name: talos_sensors, uri: 'https://github.com/openrobotics/talos_sensors',
     version: indigo-devel}
+- git: {local-name: talos_smach, uri: 'https://github.com/openrobotics/talos_smach',
+    version: indigo-devel}
