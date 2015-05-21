@@ -7,3 +7,11 @@
 - git: {local-name: talos_navigation, uri: 'https://github.com/openrobotics/talos_navigation', version: indigo-devel}
 - git: {local-name: talos_teleop, uri: 'https://github.com/openrobotics/talos_teleop', version: indigo-devel}
 - git: {local-name: talos_audio, uri: 'https://github.com/openrobotics/talos_audio', version: indigo-devel}
+- git: {local-name: talos_developer_iso, uri: 'https://github.com/openrobotics/talos_developer_iso',
+    version: ubuntu-trusty}
+- git: {local-name: talos_tutorial_iso, uri: 'https://github.com/openrobotics/talos_tutorial_iso',
+    version: ubuntu-trusty}
+- git: {local-name: talos_robot_iso, uri: 'https://github.com/openrobotics/talos_robot_iso',
+    version: ubuntu-trusty}
+- git: {local-name: talos_developer_kit, uri: 'https://github.com/openrobotics/talos_developer_kit',
+    version: master}
