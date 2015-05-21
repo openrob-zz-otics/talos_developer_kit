@@ -1,10 +1,15 @@
+#!/bin/sh
 # Author: Devon Ash
-# BSD, UBC Open Robotics.
+# License: BSD, 
+# Organization: UBC Open Robotics.
 
 BLACK='\033[0;31m'
 RED='\033[0;32m'
 YELLOW='\033[1;33m'
 NC='\033[0m'
+
+#Install required packages
+sudo apt-get install ros-hydro-catkin
 
 echo -e "${BLACK}Initializing developer workspace...${NC}\n"
 # Setup file structure

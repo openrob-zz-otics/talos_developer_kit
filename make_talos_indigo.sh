@@ -1,5 +1,7 @@
+#!/bin/sh
 # Author: Devon Ash
-# BSD, UBC Open Robotics.
+# License: BSD, 
+# Organization: UBC Open Robotics.
 
 BLACK='\033[0;31m'
 RED='\033[0;32m'
