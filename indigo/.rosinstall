@@ -15,3 +15,5 @@
     version: ubuntu-trusty}
 - git: {local-name: talos_developer_kit, uri: 'https://github.com/openrobotics/talos_developer_kit',
     version: master}
+- git: {local-name: talos_sensors, uri: 'https://github.com/openrobotics/talos_sensors',
+    version: indigo-devel}

@@ -21,3 +21,5 @@
     version: hydro-devel}
 - git: {local-name: talos_audio, uri: 'https://github.com/openrobotics/talos_audio',
     version: hydro-devel}
+- git: {local-name: talos_sensors, uri: 'https://github.com/openrobotics/talos_sensors',
+    version: hydro-devel}
